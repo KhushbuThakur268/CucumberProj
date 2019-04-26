@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T10:20:32.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6049137600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_MeAppStepDefn.before()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "test-me-app-login-feature;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 796070600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Enter the URL of Test_Me App",
+            "match": {
+              "location": "Test_MeAppStepDefn.enter_the_URL_of_Test_Me_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543539600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter data for Login",
+            "match": {
+              "location": "Test_MeAppStepDefn.enter_data_for_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 308256200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Login",
+            "match": {
+              "location": "Test_MeAppStepDefn.user_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174541000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters into Admin Home page",
+            "match": {
+              "location": "Test_MeAppStepDefn.user_enters_into_Admin_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7561924800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the Add Product page",
+            "match": {
+              "location": "Test_MeAppStepDefn.enter_the_Add_Product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63087700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Product Successfully Added",
+            "match": {
+              "location": "Test_MeAppStepDefn.product_Successfully_Added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test_Me App Login Feature",
+    "description": "",
+    "id": "test-me-app-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/testMeAppLogin.feature",
+    "tags": []
+  }
+]

@@ -17,7 +17,7 @@ import pages.RegisterPage;
 public class RegisterStepDefn
 {
 	WebDriver driver;
-	@Before
+	//@Before
 	public void before() 
 	{
 		driver = DriverUtility.getDriver("Chrome");

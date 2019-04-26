@@ -12,96 +12,64 @@ formatter.scenario({
 formatter.before({
   "status": "passed"
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
   "name": "Enter the URL of Test_Me App",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_MeAppStepDefn.enter_the_URL_of_Test_Me_App()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "Enter data for Login",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_MeAppStepDefn.enter_data_for_Login()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User click on Login",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_MeAppStepDefn.user_click_on_Login()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters into Admin Home page",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_MeAppStepDefn.user_enters_into_Admin_Home_page()"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Add new products",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
   "status": "passed"
 });
 formatter.step({
   "name": "Enter the Add Product page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_MeAppStepDefn.enter_the_Add_Product_page()"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Click on Add Product",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Enter data for Adding Product",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Click on Add Product",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "Product Successfully Added",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_MeAppStepDefn.product_Successfully_Added()"
 });
-formatter.after({
+formatter.result({
   "status": "passed"
 });
 });
